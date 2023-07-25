@@ -1,11 +1,11 @@
-cargo-features = ["per-package-target"]
+#cargo-features = ["per-package-target"]
 
 [package]
 name = "magicleap_one_lumin_sdk_sys"
 version = "0.1.0"
 edition = "2021"
 build = "build.rs"
-forced-target = "aarch64-linux-android"
+#forced-target = "aarch64-linux-android"
 
 [build-dependencies]
 bindgen = "0.64.0"
